@@ -8,7 +8,7 @@ pipeline {
 		stage('echo') {
 			steps {
 				script {
-					sh "echo Hi"
+					sh "echo Hello"
 					}
 			}
 		}
