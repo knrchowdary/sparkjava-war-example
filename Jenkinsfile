@@ -5,6 +5,13 @@ pipeline {
 		jdk 'jdk8' 
 	}
     stages {
+		stage('echo') {
+			steps {
+				script {
+					sh "echo Hi"
+					}
+			}
+		}
         stage('build') {
             steps {
                 script {
